@@ -3,11 +3,11 @@
 This repository provides scripts for training and performing inference using the PaliGemma model. The model is designed for visual question answering (VQA) tasks. The scripts were made by our team "Attack On Python". 
 
 
-# Task
+## Task
 
 Given the images of online products on Amazon with various measurements of physical quantities (e.g., height, width, weight) specified, **extract the numerical values corresponding to the physical quantities given as input**.
 
-# Results
+## Results
 
 Our solution achieved a maximum F1-Score of `0.661` and secured a **Top-30** finish (Public Leaderboard) among over 2000 participating teams.
 
@@ -39,3 +39,8 @@ pip install -r requirements.txt
 - Download the images in a directory by passing the list of links from test.csv to ```util.download_images(<list of link of images>)```
 - Add the path of the images directory in the ``` data_dir ``` and the path to train.csv in metadata_df's ```pd.read_csv(<test.csv path>)```
 - Run the ```PaliGemma_Training_AttackOnPython.py``` file after setting up the ```batch_size``` and ```test_id``` hyperparameter.
+
+## Credits
+
+A shout-out to my amazing friends [Anurakt](https://www.linkedin.com/in/anurakt-kumar/), [Vibhu](https://www.linkedin.com/in/vibhu-yadav/) and [Shivanshu](https://www.linkedin.com/in/shivanshu-gupta-47a534173/) for the great work!
+## 
