@@ -9,7 +9,7 @@ Given the images of online products on Amazon with various measurements of physi
 
 ## Results
 
-Our solution achieved a maximum F1-Score of `0.661` and secured a **26th** position finish (Public Leaderboard) among over 2000 participating teams.
+Our solution achieved a maximum F1-Score of `0.661` and secured a **26th** position finish [(link)](https://github.com/jena-shreyas/Amazon-ML-Challenge/blob/main/Final_Certificate.pdf) among over 2000 participating teams.
 
 ## Table of Contents
 - [Requirements](#requirements)
